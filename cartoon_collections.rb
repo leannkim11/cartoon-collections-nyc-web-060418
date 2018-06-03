@@ -1,20 +1,3 @@
-# def roll_call_dwarves(dwarf_arr)# code an argument here
-#   dwarf_arr.each_with_index{|index, dwarf| puts "#{index} #{dwarf}"
-# end
-#
-# def summon_captain_planet(cp_arr)# code an argument here
-#
-# end
-#
-# def long_planeteer_calls# code an argument here
-#   # Your code here
-# end
-#
-# def find_the_cheese# code an argument here
-#   # the array below is here to help
-#   cheese_types = ["cheddar", "gouda", "camembert"]
-# end
-
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 call_screams = ["bo", "bam", "boom", "bazam", "powzer"]
@@ -61,7 +44,6 @@ cheese_types = ["cheddar", "gouda", "camembert"]
 snacks = ["crackers", "gouda", "thyme"]
 
 
-# This is the learn.co method that wants the cheese array inside the actual method
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
     array.find do |type|
@@ -72,8 +54,6 @@ end
 find_the_cheese(snacks)
 
 
-
-# This is a much better way cause the cheese array isn't included in the method.
 cheese_types = ["cheddar", "gouda", "camembert"]
 snacks = ["crackers", "gouda", "thyme"]
 
